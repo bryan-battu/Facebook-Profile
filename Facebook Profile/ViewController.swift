@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet var squareBtns: [UIButton]!
     
     var center: CGPoint?
-    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         storyBtn.layer.cornerRadius = 15
